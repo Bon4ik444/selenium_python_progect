@@ -11,7 +11,7 @@ def calc(x):
 try:
     browser = webdriver.Chrome()
     browser.get(link)
-
+    
     
     x_element = browser.find_element(By.TAG_NAME, "img")
     ttt = x_element.get_attribute("valuex")
